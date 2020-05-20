@@ -32,6 +32,16 @@ class MyApp extends StatelessWidget {
                     color: Colors.teal,
                   ),
                 ),
+                children: [
+                  Text(
+                    'WASHNOW is the easiest and most convenient dry cleaning & laundry option around. You can Request a Laundry Pickup and get your clean clothes delivered to you in 48 hours.',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 14.0,
+                      letterSpacing: 1.5,
+                    ),
+                  ),
+                ],
               ),
               ExpansionTile(
                 title: Text(
@@ -110,4 +120,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
